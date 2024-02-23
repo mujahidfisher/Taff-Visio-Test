@@ -16,14 +16,19 @@
     padding: 14px 0;
     margin: 0 7rem;
 }
+.nav{
+    padding: 4px;
+}
 .logo-image {
     width: 20%;
     float: left;
+    /* z-index: +100; */
   }
   .hamburger {
     margin-right: 50px;
   font-size: 40px;
-  padding: 15px;
+  /* padding: 10px; */
+      z-index: -1;
   float: right;
   color: black;
 }
@@ -34,6 +39,24 @@
 .logo {
     margin-right: auto;
 }
+.autoplay-indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+    margin-left: 80%;
+  }
+  .indicator {
+    width: 10px;
+    height: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .indicator.active {
+    background-color: #555;
+  }
 @media screen and (max-width: 768px){
     .navbar {
         display: flex;
@@ -717,7 +740,7 @@
 /* Col - Sec */
 .col-sec {
     display: grid;
-    grid-template-columns: 20.9rem 20.9rem 20.9rem;
+    grid-template-columns: 27.9rem 27.9rem 27.9rem;
     grid-template-rows: auto auto;
     justify-content: center;
     gap: 1rem;
@@ -741,7 +764,7 @@
 }
 .sub-box {
     display: grid;
-    grid-template-columns: 10.4rem 10.4rem;
+    grid-template-columns: 13.4rem 13.4rem;
     justify-content: center;
     column-gap: 10px;
 }
