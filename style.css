@@ -485,7 +485,7 @@
     padding: 2.6rem 5rem;
 }
 .about-text  {
-    width: 70%;
+    width: 80%;
 }
 .about-img img {
     width: 22rem;
@@ -765,7 +765,7 @@
 }
 .sub-box {
     display: grid;
-    grid-template-columns: 13.4rem 13.4rem;
+    grid-template-columns: 14.4rem 14.4rem;
     justify-content: center;
     column-gap: 10px;
 }
